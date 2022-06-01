@@ -23,7 +23,10 @@ const Book = () => {
 
   return (
     <div className="container my-4">
-      <span className="tw-bolder text-warning">List Of Books</span>
+      <h1>
+        List Of
+        <span className="tw-bolder text-warning"> Books</span>
+      </h1>
       <div className="row d-flex justify-content-between align-items-center">
         {data.map((book) => (
           <div className="col-lg-3 col-md-4 col-12 m-1" data-aos="zoom-in-up">
