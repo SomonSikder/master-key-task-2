@@ -1,9 +1,17 @@
 import React from "react";
 import "./ContactUs.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const ContactUs = () => {
   return (
-    <div className="container-fluid contact">
+    <div
+      className="container-fluid contact"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <div className="heading text-center">
         <h1>
           <span>Contact </span>us

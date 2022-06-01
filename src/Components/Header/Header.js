@@ -3,11 +3,11 @@ import HeaderTop from "./HeaderTop";
 
 const Header = () => {
   return (
-    <div>
+    <div className="nav-bar">
       <div className="mb-5 pb-2">
         <HeaderTop></HeaderTop>
       </div>
-      <nav class="navbar navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-expand-lg bg-dark nav-bar">
         <div class="container-fluid d-flex justify-content-center align-items-center">
           <a class="navbar-brand text-warning" href="#">
             Masterkey
@@ -58,6 +58,7 @@ const Header = () => {
           </div>
           <div className="">
             <button className="text-warning btn">Login</button>
+            <button className="text-warning btn">Register</button>
           </div>
         </div>
       </nav>

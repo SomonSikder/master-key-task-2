@@ -15,11 +15,11 @@
 
 .contact form {
   background: #fff;
-  padding-top: 2rem;
-  margin: 1rem 2rem;
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0 2rem #333;
-  box-shadow: 0 0 2rem #333;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0 1rem #333;
+  box-shadow: 0 0 1rem #333;
 }
 
 .contact form .inputBox {
@@ -75,7 +75,7 @@
   position: relative;
   z-index: 100;
   overflow: hidden;
-  width: 8rem;
+  width: 7rem;
   height: 2rem;
   margin-left: 3rem;
   margin-bottom: 2rem;
